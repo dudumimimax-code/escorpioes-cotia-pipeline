@@ -1,0 +1,17 @@
+# Dados individuais de saúde (SINAN) e dados brutos: nunca publicar
+*.dbc
+*.dbf
+*.csv
+*.parquet
+data/
+bronze/
+1_bronze/
+2_silver/
+3_gold/
+_cache/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
